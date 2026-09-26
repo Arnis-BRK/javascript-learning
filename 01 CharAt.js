@@ -1,3 +1,14 @@
+let inputName = "Adriano"; 
+console.log(inputName.charAt(4)); 
+
+// Case sensitive, so Adriano and adriano are different strings.
+// a == A is false, but a == a is true.
+
+let name1 = "Adriano";
+let name2 = "adriano";
+
+console.log(name1 == name2);
+
 /*
 
 Acess string methods
@@ -10,15 +21,3 @@ Adriano
 
 //get 5th character from the string, CharAt is the method.
 */
-
-let inputName = "Adriano"; 
-console.log(inputName.charAt(4)); 
-
-// Case sensitive, so Adriano and adriano are different strings.
-// a == A is false, but a == a is true.
-
-let name1 = "Adriano";
-let name2 = "adriano";
-
-console.log(name1 == name2);
-

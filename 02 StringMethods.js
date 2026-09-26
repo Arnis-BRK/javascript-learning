@@ -1,15 +1,3 @@
-// Concat > Concatenation of strings, joining two strings together.
-// replace > Replace a character in the string with another character.
-// toLowercase() > converting the string to lowercase
-// to Uppercase() > converting the string to uppercase
-// trim() > removes the spaces from the start/end of the string
-// split() > splits the string into an array of strings based on the separator provided.
-// slice() > returns a part of the string based on the start and end index provided.
-// substring() > returns a part of the string based on the start and end index provided. It is similar to slice() 
-// but it does not accept negative indexes.
-
-
-
 let name3 = "Adriano";
 let name4 = " Felix";
 let name5 = " Adriano Felix ";
@@ -34,3 +22,13 @@ console.log(typeof numero)
 
 numero = Number(numero);
 console.log(typeof numero)
+
+// Concat > Concatenation of strings, joining two strings together.
+// replace > Replace a character in the string with another character.
+// toLowercase() > converting the string to lowercase
+// to Uppercase() > converting the string to uppercase
+// trim() > removes the spaces from the start/end of the string
+// split() > splits the string into an array of strings based on the separator provided.
+// slice() > returns a part of the string based on the start and end index provided.
+// substring() > returns a part of the string based on the start and end index provided. It is similar to slice() 
+// but it does not accept negative indexes.
