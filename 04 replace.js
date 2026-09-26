@@ -22,6 +22,5 @@ console.log(
     only.slice(0, 3) +
     only.slice(3, 4).replace('a', 'o') +
     only.slice(4, 6)
-
-)
+);
 

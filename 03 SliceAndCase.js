@@ -46,11 +46,13 @@ console.log(
     upper2.slice(6, 8).toLowerCase()
 ); // OPA, EU > Opa, Eu
 
+
+// pausado para For/Loop
 let input = "OlÁ, MeU NOme é AdRiaNo";
-lower = input.toLowerCase()
-bagunça = lower.split(" ")
+let lc = input.toLowerCase()
+let bagunça = lc.split(" ")
 
 
-console.log(
+console.log( 
     bagunça[1].slice(0, 1).toUpperCase() + bagunça[1].slice(1, 4)
 );
