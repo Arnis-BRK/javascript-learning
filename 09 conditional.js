@@ -1,15 +1,13 @@
+// Faça um programa que peça dois números e imprima o maior deles.
 
+let n1 = 13;
+let n2 = 12;
 
-let age = 18;
-
-if(age >= 18){
-    console.log("You're ok.")
-}
-
-else{
-    console.log("You're underage.")
-}
-
+if (n1 > n2){
+    console.log(n1, "É maior que", n2);
+}else{
+    console.log(n2, "É maior que", n1);
+};
 
 
 
