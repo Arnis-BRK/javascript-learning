@@ -4,8 +4,11 @@
 //  code to be executed
 //}while(condition)
 
-// while: entry checked
-// do-while: exit checked
+// while:
+// VERIFY → execute → verify → execute...
+
+// do-while:
+// execute → VERIFY → execute → verify...
 
 /*
 infinite loop
