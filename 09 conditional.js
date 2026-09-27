@@ -1,6 +1,6 @@
 // Faça um programa que peça dois números e imprima o maior deles.
 
-let n1 = 13;
+let n1 = 10;
 let n2 = 12;
 
 if (n1 > n2){
