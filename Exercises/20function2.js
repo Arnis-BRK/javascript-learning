@@ -12,13 +12,15 @@ function caracter(a){
 
 function analisarNome(a){
     let nome = a.slice(0, 1).toUpperCase() + a.slice(1).toLowerCase()
-    let ck = nome.charAt(0)
-    if (ck === 'A'){
+    let pLetra = nome.charAt(0)
+    if (pLetra === 'A'){
         return "O nome " + nome + " Começa com A e tem " + nome.length +" Caracteres."
     }else{
         return "Nome não começa com A"
     }
 }
 
-let check = analisarNome("adriano")
-console.log(check)
+// let check = analisarNome("adriano")
+// console.log(check)
+
+
